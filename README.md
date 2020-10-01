@@ -30,8 +30,8 @@ Clone the repository
 git clone https://github.com/minasarkisyan/mdb-laravel-boilerplate.git
 Switch to the repo folder
 
-# cd mdb-laravel-boilerplate
-Install all the dependencies using composer
+cd mdb-laravel-boilerplate
+<p>Install all the dependencies using composer</p>
 
 # composer install
 Copy the example env file and make the required configuration changes in the .env file
