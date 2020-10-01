@@ -27,7 +27,7 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-git clone https://github.com/minasarkisyan/mdb-laravel-boilerplate.git
+<code>git clone https://github.com/minasarkisyan/mdb-laravel-boilerplate.git</code>
 Switch to the repo folder
 
 cd mdb-laravel-boilerplate
