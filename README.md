@@ -34,27 +34,29 @@ Switch to the repo folder
 <p>Install all the dependencies using composer</p>
 
 <code>composer install</code>
+
 <p>Copy the example env file and make the required configuration changes in the .env file</p>
 
 <code>cp .env.example .env</code>
+
 <p>Generate a new application key</p>
 
 <code>php artisan key:generate</code>
 
 <p>Run the database migrations (Set the database connection in .env before migrating)</p>
 
+<code>php artisan migrate</code>
+
 <p>Installing dependencies</p>
+
 <code>npm install</code>
 
-<p>Иuilding frontend</p>
+<p>Building frontend</p>
+
 <code>npm run dev</code>
 
 <p>Start the local development server</p>
-<code>php artisan migrate</code>
 
-<p>Starting local server</p>
 <code>php artisan serve</code>
 
 You can now access the server at http://localhost:8000
-
-
