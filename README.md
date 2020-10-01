@@ -30,23 +30,26 @@ Clone the repository
 <code>git clone https://github.com/minasarkisyan/mdb-laravel-boilerplate.git</code>
 Switch to the repo folder
 
-cd mdb-laravel-boilerplate
+<code>cd mdb-laravel-boilerplate</code>
 Install all the dependencies using composer
 
-composer install
+<code>composer install</code>
 Copy the example env file and make the required configuration changes in the .env file
 
-cp .env.example .env
+<code>cp .env.example .env</code>
 Generate a new application key
 
-php artisan key:generate
+<code>php artisan key:generate</code>
 
-php artisan jwt:generate
 Run the database migrations (Set the database connection in .env before migrating)
 
-php artisan migrate
+<code>npm install</code>
+<code>npm run dev</code>
+
+<code>php artisan migrate</code>
 Start the local development server
 
-php artisan serve
+<code>php artisan serve</code>
 You can now access the server at http://localhost:8000
+
 
