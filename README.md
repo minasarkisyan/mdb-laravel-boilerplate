@@ -8,25 +8,47 @@
 
 ## mdb-laravel-boilerplate
 Starting template for mdb and laravel
-<a href="https://laravel.com" target="_blank">Laravel</a>
-<a href="https://mdbootstrap.com/docs/standard/" target="_blank">mdbootstrap.com</a>
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<ul>
+    <li><a href="https://laravel.com" target="_blank">Laravel</a></li>
+    <li><a href="https://mdbootstrap.com/docs/standard/" target="_blank">MDBootstrap</a></li>
+</ul>
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Bootstrap 5 & Material Design 2.0. Material Design for Bootstrap
+The world's most popular framework for building responsive, mobile-first websites and apps
 
-## Learning Laravel
+All this allows us to build anything with minimal development efforts. The application is ready for further construction for your tasks. From a simple blog to complex e-commerce projects. Thanks to ready-made components, we do not need to separately highlight the front-end developer, as well as spend time on adaptability for mobile devices.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+While some may not like the material design style, this is a matter of taste.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Installation
 
+Please check the official laravel installation guide for server requirements before you start.
+
+Clone the repository
+
+git clone https://github.com/minasarkisyan/mdb-laravel-boilerplate.git
+Switch to the repo folder
+
+# cd mdb-laravel-boilerplate
+Install all the dependencies using composer
+
+# composer install
+Copy the example env file and make the required configuration changes in the .env file
+
+# cp .env.example .env
+Generate a new application key
+
+php artisan key:generate
+
+php artisan jwt:generate
+Run the database migrations (Set the database connection in .env before migrating)
+
+php artisan migrate
+Start the local development server
+
+php artisan serve
+You can now access the server at http://localhost:8000
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
