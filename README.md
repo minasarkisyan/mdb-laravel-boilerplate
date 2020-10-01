@@ -6,9 +6,10 @@
 </picture>
 </div>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## mdb-laravel-boilerplate
+Starting template for mdb and laravel
+<a href="https://laravel.com" target="_blank">Laravel</a>
+<a href="https://mdbootstrap.com/docs/standard/" target="_blank">mdbootstrap.com</a>
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
