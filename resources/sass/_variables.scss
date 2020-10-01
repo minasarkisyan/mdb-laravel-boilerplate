@@ -1,0 +1,65 @@
+// Custom colors FLAT-UI
+$turquoise: #1abc9c;
+$greensea: #16a085;
+$emerland: #2ecc71;
+$nephritis: #27ae60;
+$peterriver: #3498db;
+$belizehole: #2980b9;
+$c_blue: #3f88eb;
+$amethyst: #9b59b6;
+$wisteria: #8e44ad;
+$wetasphalt: #34495e;
+$midnightblue: #2c3e50;
+$sunflower: #f1c40f;
+$orange: #f39c12;
+$carrot: #e67e22;
+$pumpkin: #d35400;
+$tomato: #ff6347;
+$alizarin: #e74c3c;
+$pomegranate: #c0392b;
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+$asbestos: #7f8c8d;
+
+
+$blue: $peterriver;
+$indigo: #6610f2;
+$purple: $amethyst;
+$pink: $alizarin;
+$red: $tomato;
+$orange: $carrot;
+$yellow: $sunflower;
+$green: $emerland;
+$teal: $turquoise;
+$cyan: #17a2b8;
+$white: #fff;
+
+// scss-docs-start colors-map
+$colors: (
+    'blue': $blue,
+    'indigo': $indigo,
+    'purple': $purple,
+    'pink': $pink,
+    'red': $red,
+    'orange': $orange,
+    'yellow': $yellow,
+    'green': $green,
+    'teal': $teal,
+    'cyan': $cyan,
+    'white': $white,
+    'gray': $asbestos,
+    'gray-dark': $midnightblue,
+);
+// scss-docs-end colors-map
+
+
+// Theme color
+$primary: $blue;
+$secondary: $wetasphalt;
+$success: $teal;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $clouds;
+$dark: $midnightblue;
